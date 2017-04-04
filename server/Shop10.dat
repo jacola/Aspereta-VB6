@@ -1,0 +1,45 @@
+[init]
+ShopSlots=5
+
+Caption="I am an apprentice; I can teach wizards basic spells to help them survive.  I also know some secrets that Jugumae forgets in his old age."
+
+
+[slot1]
+Func=TSPELL
+FuncName=L: Save Self Lv30 2000c
+Path="Wizard"
+Level=30
+Gold=2000
+Item=1
+
+[slot2]
+Func=TSPELL
+FuncName=L: Cure Petrification Lv40 3000c
+Path="Wizard"
+Level=40
+Gold=3000
+Item=33
+
+[slot3]
+Func=TSPELL
+FuncName=L: Cure Poison Lv60 4000c
+Path="Wizard"
+Level=60
+Gold=4000
+Item=34
+
+[slot4]
+Func=TSPELL
+FuncName=L: Venom Lv65 5000c
+Path="Wizard"
+Level=65
+Gold=5000
+Item=31
+
+[slot5]
+Func=TSPELL
+FuncName=L: Last Resort Lv95 10000c
+Path="Wizard"
+Level=95
+Gold=10000
+Item=2

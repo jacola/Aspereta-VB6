@@ -1,0 +1,161 @@
+[init]
+ShopSlots=20
+Caption="I train those who wish to be users of destructive arcane magic.  Such users learn curses and elemental attacks - however be warned they have no healing abilities.  If you wish to aid others perhaps you should seek out Miai."
+
+[slot1]
+Func=PATH
+FuncName=Wizard  Lv5 200c
+Gold=200
+Path="Wizard"
+
+[slot2]
+Func=TSPELL
+FuncName=L: Spark Lv5 100c
+Path="Wizard"
+Level=5
+Gold=100
+Item=3
+
+[slot3]
+Func=TSPELL
+FuncName=L: Bolt Lv12 400c
+Path="Wizard"
+Level=12
+Gold=400
+Item=4
+
+[slot4]
+Func=TSPELL
+FuncName=L: Soften Armor Lv15 600c
+Path="Wizard"
+Level=15
+Gold=600
+Item=11
+
+[slot5]
+Func=TSPELL
+FuncName=L: Stun Lv23 750c
+Path="Wizard"
+Level=23
+Gold=750
+Item=27
+
+[slot6]
+Func=TSPELL
+FuncName=L: Static Lv30 1000c
+Path="Wizard"
+Level=30
+Gold=1000
+Item=15
+
+[slot7]
+Func=TSPELL
+FuncName=L: Thunder Lv35 750c
+Path="Wizard"
+Level=35
+Gold=750
+Item=22
+
+[slot8]
+Func=TSPELL
+FuncName=L: Hinder Lv40 2000c
+Path="Wizard"
+Level=40
+Gold=2000
+Item=12
+
+[slot9]
+Func=TSPELL
+FuncName=L: Poison Lv50 2750c
+Path="Wizard"
+Level=45
+Gold=2750
+Item=30
+
+[slot10]
+Func=TSPELL
+FuncName=L: Lightning Lv50 3000c
+Path="Wizard"
+Level=50
+Gold=3000
+Item=16
+
+[slot11]
+Func=TSPELL
+FuncName=L: Paralyze Lv55 3500c
+Path="Wizard"
+Level=23
+Gold=3500
+Item=28
+
+[slot12]
+Func=TSPELL
+FuncName=L: Curse Lv60 4000c
+Path="Wizard"
+Level=60
+Gold=4000
+Item=13
+
+[slot13]
+Func=TSPELL
+FuncName=L: Grand Lightning Lv70 5000c
+Path="Wizard"
+Level=70
+Gold=5000
+Item=17
+
+[slot14]
+Func=TSPELL
+FuncName=L: Storm Lv75 7000c
+Path="Wizard"
+Level=35
+Gold=7000
+Item=23
+
+[slot15]
+Func=TSPELL
+FuncName=L: Petrify Lv80 10000c
+Path="Wizard"
+Level=80
+Gold=10000
+Item=29
+
+[slot16]
+Func=TSPELL
+FuncName=L: Norou Lv85 12500c
+Path="Wizard"
+Level=85
+Gold=12500
+Item=14
+
+[slot17]
+Func=TSPELL
+FuncName=L: Rotting Flesh Lv87 15000c
+Path="Wizard"
+Level=87
+Gold=15000
+Item=32
+
+[slot18]
+Func=TSPELL
+FuncName=L: Inazuma Lv90 17500c
+Path="Wizard"
+Level=90
+Gold=17500
+Item=18
+
+[slot19]
+Func=TSPELL
+FuncName=L: Grand Storm Lv95 30000c
+Path="Wizard"
+Level=95
+Gold=30000
+Item=24
+
+[slot20]
+Func=TSPELL
+FuncName=L: Kakkazan Lv99 50000c
+Path="Wizard"
+Level=99
+Gold=50000
+Item=19

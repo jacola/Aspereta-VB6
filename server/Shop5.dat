@@ -1,0 +1,99 @@
+[init]
+ShopSlots=16
+Caption="I buy and sell potions and gems."
+
+[Slot1]
+Func=BUY
+FuncName=B: Minor Healing Potion 10c
+Gold=10
+Item=1
+
+[Slot2]
+Func=BUY
+FuncName=B: Healing Potion 50c
+Gold=50
+Item=62
+
+[Slot3]
+Func=BUY
+FuncName=B: Greater Healing Potion 100c
+Gold=100
+Item=63
+
+[Slot4]
+Func=BUY
+FuncName=B: Minor Mana Potion 10c
+Gold=10
+Item=24
+
+[Slot5]
+Func=BUY
+FuncName=B: Mana Potion 50c
+Gold=50
+Item=64
+
+[Slot6]
+Func=BUY
+FuncName=B: Greater Mana Potion 100c
+Gold=100
+Item=65
+
+[Slot7]
+Func=SELL
+FuncName=S: Minor Healing Potion 5c
+Gold=5
+Item=1
+
+[Slot8]
+Func=SELL
+FuncName=S: Healing Potion 25c
+Gold=25
+Item=62
+
+[Slot9]
+Func=SELL
+FuncName=S: Greater Healing Potion 50c
+Gold=50
+Item=63
+
+[Slot10]
+Func=SELL
+FuncName=S: Minor Mana Potion 5c
+Gold=5
+Item=24
+
+[Slot11]
+Func=SELL
+FuncName=S: Mana Potion 25c
+Gold=25
+Item=64
+
+[Slot12]
+Func=SELL
+FuncName=S: Greater Mana Potion 50c
+Gold=50
+Item=65
+
+[Slot13]
+Func=SELL
+FuncName=S: Emerald 75c
+Gold=75
+Item=26
+
+[Slot14]
+Func=SELL
+FuncName=S: Ruby 150c
+Gold=150
+Item=34
+
+[Slot15]
+Func=BHP
+FuncName=Raise HP
+Gold=0
+Item=0
+
+[Slot16]
+Func=BMP
+FuncName=Raise MP
+Gold=0
+Item=0

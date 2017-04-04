@@ -1,0 +1,97 @@
+[init]
+ShopSlots=15
+Caption="I'm the mighty Anjo - master of combat.  I have trained the best of fighters.  If you wish to become a Warrior - I will train you."
+
+[slot1]
+Func=PATH
+FuncName=Warrior  Lv5 200c
+Gold=200
+Path="Warrior"
+
+[Slot2]
+Func=BUY
+FuncName=B: Leather Gauntlet Lv1 100c
+Gold=100
+Item=25
+
+[Slot3]
+Func=BUY
+FuncName=B: Iron Gauntlet Lv25 300c
+Gold=300
+Item=27
+
+[Slot4]
+Func=BUY
+FuncName=B: Steel Gauntlet Lv50 5000c
+Gold=5000
+Item=28
+
+[Slot5]
+Func=BUY
+FuncName=B: Silver Gauntlet Lv75 10000c
+Gold=10000
+Item=29
+
+[Slot6]
+Func=BUY
+FuncName=B: Gold Gauntlet Lv85 25000c
+Gold=25000
+Item=30
+
+[Slot7]
+Func=BUY
+FuncName=B: Ruby Gauntlet Lv99 45000c
+Gold=45000
+Item=31
+
+[Slot8]
+Func=SELL
+FuncName=S: Leather Gauntlet 50c
+Gold=50
+Item=25
+
+[Slot9]
+Func=SELL
+FuncName=S: Iron Gauntlet 150c
+Gold=150
+Item=27
+
+[Slot10]
+Func=SELL
+FuncName=S: Steel Gauntlet 2500c
+Gold=2500
+Item=28
+
+[Slot11]
+Func=SELL
+FuncName=S: Silver Gauntlet 5000c
+Gold=5000
+Item=29
+
+[Slot12]
+Func=SELL
+FuncName=S: Gold Gauntlet 12500c
+Gold=12500
+Item=30
+
+[Slot13]
+Func=SELL
+FuncName=S: Ruby Gauntlet 22500c
+Gold=22500
+Item=31
+
+[slot14]
+Func=TSPELL
+FuncName=L: Korosu Lv50 10000c
+Path="Warrior"
+Level=50
+Gold=10000
+Item=20
+
+[slot15]
+Func=TSPELL
+FuncName=L: Tatsumaki Lv99 50000c
+Path="Warrior"
+Level=99
+Gold=50000
+Item=21

@@ -1,0 +1,20 @@
+[INIT]
+NumLines=15
+
+[Help]
+Line1= Talk/Command box functions:
+Line2=Talk/Command box: [']  Broadcast = ', Shout = -,
+Line3=Whisper = \name [message], who = /who,
+Line4=Top players = /rank, List group = /group,
+Line5=Add a group member = /g[name], Ungroup yourself
+Line6= = /ung, Save your character = /save or logging
+Line7=off Dropping money = /drop[amount]
+
+Line8= Key commands
+Line9=Spellbook = z, Inventory = i, Movement = Arrow keys
+Line10=Attack = Spacebar, Use = u, Get = Comma, Drop = d,
+Line11=status = s, talk to npc = right click,
+Line12=look at user = right click, Spell macros = 0-9
+Line13=F1 = Minimize, F2 = Refresh, F3 = chat background
+Line14=F4 = Status Filtering, F5 = Toggle Status window
+Line15=Page up/Page Down = Scroll chat, Tab = Toggle HP/MP Bar

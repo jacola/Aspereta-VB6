@@ -1,0 +1,149 @@
+[init]
+ShopSlots=19
+Caption="I am Miai.  I can guide you towards the path of constructive magic.  If you wish to heal and assist others in combat - you have found the right place."
+
+[slot1]
+Func=PATH
+FuncName=Cleric  Lv5 200c
+Gold=200
+Path="Cleric"
+
+[Slot2]
+Func=BUY
+FuncName=B: Minor Mana Potion 10c
+Gold=10
+Item=24
+
+[slot3]
+Func=SELL
+FuncName=S: Minor Mana Potion 5c
+Gold=5
+Item=24
+
+[slot4]
+Func=TSPELL
+FuncName=L: Lay Hands Lv5 100c
+Path="Cleric"
+Level=5
+Gold=100
+Item=5
+
+[slot5]
+Func=TSPELL
+FuncName=L: Spark Lv6 100c
+Path="Cleric"
+Level=6
+Gold=100
+Item=3
+
+[slot6]
+Func=TSPELL
+FuncName=L: Soothe Lv15 500c
+Path="Cleric"
+Level=15
+Gold=500
+Item=6
+
+[slot7]
+Func=TSPELL
+FuncName=L: Cure Poison Lv20 700c
+Path="Cleric"
+Level=20
+Gold=700
+Item=34
+
+[slot8]
+Func=TSPELL
+FuncName=L: Warm Self Lv25 800c
+Path="Cleric"
+Level=25
+Gold=800
+Item=39
+
+[slot9]
+Func=TSPELL
+FuncName=L: Warm Embrace Lv30 1000c
+Path="Cleric"
+Level=30
+Gold=1000
+Item=7
+
+[slot10]
+Func=TSPELL
+FuncName=L: Warmth Lv35 1750c
+Path="Cleric"
+Level=35
+Gold=1750
+Item=36
+
+[slot11]
+Func=TSPELL
+FuncName=L: Cure Petrification Lv40 2000c
+Path="Cleric"
+Level=40
+Gold=2000
+Item=33
+
+[slot12]
+Func=TSPELL
+FuncName=L: Vitalize Lv45 2500c
+Path="Cleric"
+Level=45
+Gold=2500
+Item=8
+
+[slot13]
+Func=TSPELL
+FuncName=L: Heal Self Lv53 3000c
+Path="Cleric"
+Level=53
+Gold=3000
+Item=40
+
+[slot14]
+Func=TSPELL
+FuncName=L: Inner Warmth Lv60 4000c
+Path="Cleric"
+Level=60
+Gold=4000
+Item=37
+
+[slot15]
+Func=TSPELL
+FuncName=L: Impede Lv65 5000c
+Path="Cleric"
+Level=65
+Gold=5000
+Item=42
+
+[slot16]
+Func=TSPELL
+FuncName=L: Heal Lv75 5000c
+Path="Cleric"
+Level=75
+Gold=5000
+Item=9
+
+[slot17]
+Func=TSPELL
+FuncName=L: Lift Spirit Lv83 10000c
+Path="Cleric"
+Level=83
+Gold=10000
+Item=38
+
+[slot18]
+Func=TSPELL
+FuncName=L: Embrace Self Lv87 12000c
+Path="Cleric"
+Level=87
+Gold=12000
+Item=41
+
+[slot19]
+Func=TSPELL
+FuncName=L: Naosu Lv90 15000c
+Path="Cleric"
+Level=90
+Gold=15000
+Item=10

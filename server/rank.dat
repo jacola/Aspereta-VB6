@@ -1,0 +1,59 @@
+[Player1]
+Name=Santa
+Path=Warrior
+Level= 99
+Stat= 200000
+
+[Player2]
+Name=Dark
+Path=Wizard
+Level= 30
+Stat= 401
+
+[Player3]
+Name=Gelion
+Path=Wizard
+Level= 5
+Stat= 106
+
+[Player4]
+Name=testguy
+Path=Peasant
+Level= 2
+Stat= 54
+
+[Player5]
+Name=noname
+Path=none
+Level= 1
+Stat= 1
+
+[Player6]
+Name=noname
+Path=none
+Level= 1
+Stat= 1
+
+[Player7]
+Name=testa
+Path=peasant
+Level= 1
+Stat= 1998
+
+[Player8]
+Name=testor
+Path=peasant
+Level= 1
+Stat= 40
+
+[Player9]
+Name=none
+Path=none
+Level= 0
+Stat= 0
+
+[Player10]
+Name=none
+Path=none
+Level= 0
+Stat= 0

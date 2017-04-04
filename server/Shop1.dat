@@ -1,0 +1,111 @@
+[init]
+ShopSlots=18
+Caption=I am Aero the smith.  If you are looking to trade weapons come right in.
+
+[slot1]
+Func=BUY
+FuncName=B: Wooden Dagger Lv1 30c
+Gold=30
+Item=2
+
+[slot2]
+Func=BUY
+FuncName=B: Wooden Sword Lv5 100c
+Gold=100
+Item=3
+
+[slot3]
+Func=BUY
+FuncName=B: Steel sword Lv15 200c
+Gold=200
+Item=4
+
+[slot4]
+Func=BUY
+FuncName=B: Iron Sword Lv25 400c
+Gold=400
+Item=5
+
+[slot5]
+Func=BUY
+FuncName=B: Katana Lv40 1000c
+Gold=1000
+Item=6
+
+[slot6]
+Func=BUY
+FuncName=B: Steel Short Sword Lv55 5000c
+Gold=5000
+Item=7
+
+[slot7]
+Func=BUY
+FuncName=B: Steel Long Sword Lv70 10000c
+Gold=10000
+Item=8
+
+[slot8]
+Func=BUY
+FuncName=B: Steel Broad Sword Lv80 15000c
+Gold=15000
+Item=9
+
+[slot9]
+Func=BUY
+FuncName=B: Silver Blade Lv90 25000c
+Gold=25000
+Item=10
+
+[slot10]
+Func=SELL
+FuncName=S: Wooden Dagger 15c
+Gold=15
+Item=2
+
+[slot11]
+Func=SELL
+FuncName=S: Wooden Sword 50c
+Gold=50
+Item=3
+
+[slot12]
+Func=SELL
+FuncName=S: Steel sword 100c
+Gold=100
+Item=4
+
+[slot13]
+Func=SELL
+FuncName=S: Iron Sword 200c
+Gold=200
+Item=5
+
+[slot14]
+Func=SELL
+FuncName=S: Katana 500c
+Gold=500
+Item=6
+
+[slot15]
+Func=SELL
+FuncName=S: Steel Short Sword 2500c
+Gold=2500
+Item=7
+
+[slot16]
+Func=SELL
+FuncName=S: Steel Long Sword 5000c
+Gold=5000
+Item=8
+
+[slot17]
+Func=SELL
+FuncName=S: Steel Broad Sword 7500c
+Gold=7500
+Item=9
+
+[slot18]
+Func=SELL
+FuncName=S: Silver Blade 12500c
+Gold=12500
+Item=10

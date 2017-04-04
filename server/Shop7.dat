@@ -1,0 +1,124 @@
+[init]
+ShopSlots=20
+
+Caption="I sell wands for wizards and clerics and rings for wizards."
+
+[Slot1]
+Func=BUY
+FuncName=B: Wooden Staff Lv25 300c
+Gold=300
+Item=53
+
+[Slot2]
+Func=BUY
+FuncName=B: Water Staff Lv40 2000c
+Gold=2000
+Item=54
+
+[Slot3]
+Func=BUY
+FuncName=B: Fire Staff Lv75 10000c
+Gold=10000
+Item=56
+
+[Slot4]
+Func=BUY
+FuncName=B: Ruby Staff Lv85 15000c
+Gold=15000
+Item=57
+
+[Slot5]
+Func=BUY
+FuncName=B: Dragon Staff Lv95 20000c
+Gold=20000
+Item=58
+
+[Slot6]
+Func=BUY
+FuncName=B: Iron Ring Lv1 100c
+Gold=100
+Item=35
+
+[Slot7]
+Func=BUY
+FuncName=B: Bronze Ring Lv25 300c
+Gold=300
+Item=36
+
+[Slot8]
+Func=BUY
+FuncName=B: Silver Ring Lv50 5000c
+Gold=5000
+Item=37
+
+[Slot9]
+Func=BUY
+FuncName=B: Gold Ring Lv75 10000c
+Gold=10000
+Item=38
+
+[Slot10]
+Func=BUY
+FuncName=B: Ruby Ring Lv85 25000c
+Gold=25000
+Item=39
+
+[Slot11]
+Func=SELL
+FuncName=S: Wooden Staff 150c
+Gold=150
+Item=53
+
+[Slot12]
+Func=SELL
+FuncName=S: Water Staff 1000c
+Gold=1000
+Item=54
+
+[Slot13]
+Func=SELL
+FuncName=S: Fire Staff 5000c
+Gold=5000
+Item=56
+
+[Slot14]
+Func=SELL
+FuncName=S: Ruby Staff 7500c
+Gold=7500
+Item=57
+
+[Slot15]
+Func=SELL
+FuncName=S: Dragon Staff 10000c
+Gold=10000
+Item=58
+
+[Slot16]
+Func=SELL
+FuncName=S: Iron Ring 50c
+Gold=50
+Item=35
+
+[Slot17]
+Func=SELL
+FuncName=S: Bronze Ring 150c
+Gold=150
+Item=36
+
+[Slot18]
+Func=SELL
+FuncName=S: Silver Ring 2500c
+Gold=2500
+Item=37
+
+[Slot19]
+Func=SELL
+FuncName=S: Gold Ring 5000c
+Gold=5000
+Item=38
+
+[Slot20]
+Func=SELL
+FuncName=S: Ruby Ring 12500c
+Gold=12500
+Item=39

@@ -1,0 +1,61 @@
+[init]
+ShopSlots=11
+
+Caption="I can change your appearance."
+
+[Slot1]
+Func=CFACE
+FuncName=Head 1 
+Item=1
+
+[Slot2]
+Func=CFACE
+FuncName=Head 2 
+Item=3
+
+[Slot3]
+Func=CFACE
+FuncName=Head 3 
+Item=4
+
+[Slot4]
+Func=CFACE
+FuncName=Head 4
+Item=5
+
+[Slot5]
+Func=CFACE
+FuncName=Head 5 
+Item=6
+
+[Slot6]
+Func=CFACE
+FuncName=Head 6 
+Item=7
+
+[Slot7]
+Func=CFACE
+FuncName=Head 7 
+Item=8
+
+[Slot8]
+Func=CFACE
+FuncName=Head 8 
+Item=9
+
+[Slot9]
+Func=CFACE
+FuncName=Head 9 
+Item=10
+
+[Slot10]
+Func=BUY
+FuncName=B: Return Scroll 1c
+Gold=1
+Item=72
+
+[Slot11]
+Func=SELL
+FuncName=S: Return Scroll 0c
+Gold=0
+Item=72

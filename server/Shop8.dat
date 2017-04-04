@@ -1,0 +1,64 @@
+[init]
+ShopSlots=10
+
+Caption="I sell bracelets for clerics."
+
+[Slot1]
+Func=BUY
+FuncName=B: Leather Bracelet Lv1 100c
+Gold=100
+Item=42
+
+[Slot2]
+Func=BUY
+FuncName=B: Iron Bracelet Lv25 300c
+Gold=300
+Item=43
+
+[Slot3]
+Func=BUY
+FuncName=B: Bronze Bracelet Lv50 5000c
+Gold=5000
+Item=44
+
+[Slot4]
+Func=BUY
+FuncName=B: Silver Bracelet Lv75 10000c
+Gold=10000
+Item=45
+
+[Slot5]
+Func=BUY
+FuncName=B: Gold Bracelet Lv85 25000c
+Gold=25000
+Item=46
+
+[Slot6]
+Func=SELL
+FuncName=S: Leather Bracelet 50c
+Gold=50
+Item=42
+
+[Slot7]
+Func=SELL
+FuncName=S: Iron Bracelet 150c
+Gold=150
+Item=43
+
+[Slot8]
+Func=SELL
+FuncName=S: Bronze Bracelet 2500c
+Gold=2500
+Item=44
+
+[Slot9]
+Func=SELL
+FuncName=S: Silver Bracelet 5000c
+Gold=5000
+Item=45
+
+[Slot10]
+Func=SELL
+FuncName=S: Gold Bracelet 12500c
+Gold=12500
+Item=46

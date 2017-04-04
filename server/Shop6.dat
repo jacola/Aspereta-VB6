@@ -1,0 +1,124 @@
+[init]
+ShopSlots=20
+
+Caption="I sell the finest armor in all of Minita."
+
+[Slot1]
+Func=BUY
+FuncName=B: Peasent Armor Lv1 10c
+Gold=10
+Item=17
+
+[Slot2]
+Func=BUY
+FuncName=B: Adventurer Armor Lv7 200c
+Gold=200
+Item=18
+
+[Slot3]
+Func=BUY
+FuncName=B: Enchanted Armor Lv30 1000c
+Gold=1000
+Item=19
+
+[Slot4]
+Func=BUY
+FuncName=B: Ares Armor Lv60 6000c
+Gold=6000
+Item=20
+
+[Slot5]
+Func=BUY
+FuncName=B: Zeus Armor Lv80 20000c
+Gold=20000
+Item=21
+
+[Slot6]
+Func=BUY
+FuncName=B: Mythril Armor Lv99 50000c
+Gold=50000
+Item=22
+
+[Slot7]
+Func=BUY
+FuncName=B: Hard Leather Helm Lv1 10c
+Gold=10
+Item=66
+
+[Slot8]
+Func=BUY
+FuncName=B: Bronze Helm Lv25 800c
+Gold=800
+Item=67
+
+[Slot9]
+Func=BUY
+FuncName=B: Fire Helm Lv50 5000c
+Gold=5000
+Item=68
+
+[Slot10]
+Func=BUY
+FuncName=B: Mythril Helm Lv75 15000c
+Gold=15000
+Item=69
+
+[Slot11]
+Func=SELL
+FuncName=S: Peasent Armor 5c
+Gold=5
+Item=17
+
+[Slot12]
+Func=SELL
+FuncName=S: Adventurer Armor 100c
+Gold=100
+Item=18
+
+[Slot13]
+Func=SELL
+FuncName=S: Enchanted Armor 500c
+Gold=500
+Item=19
+
+[Slot14]
+Func=SELL
+FuncName=S: Ares Armor 3000c
+Gold=3000
+Item=20
+
+[Slot15]
+Func=SELL
+FuncName=S: Zeus Armor 10000c
+Gold=10000
+Item=21
+
+[Slot16]
+Func=SELL
+FuncName=S: Mythril Armor 25000c
+Gold=25000
+Item=22
+
+[Slot17]
+Func=SELL
+FuncName=S: Hard Leather Helm 5c
+Gold=5
+Item=66
+
+[Slot18]
+Func=SELL
+FuncName=S: Bronze Helm 400c
+Gold=400
+Item=67
+
+[Slot19]
+Func=SELL
+FuncName=S: Fire Helm 2500c
+Gold=2500
+Item=68
+
+[Slot20]
+Func=SELL
+FuncName=S: Mythril Helm Lv75 7500c
+Gold=7500
+Item=69

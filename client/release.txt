@@ -1,0 +1,153 @@
+To do:
+	Expand to over 10000 raw frames.
+	New log in screen
+	Make spell graphics last after a monster is dead.
+	Improve key handling to be smoother.
+	Attack animations
+	"layers"
+	Character creation screen
+	Make it so the client does not exit when a character is created.
+	When you exit you go to login screen.
+	New server command support: CNT[ip address],[port] makes the user reconnect to the specified and automatically supplies pw/name
+	New client command, SVR[server id] for when the server recieves AVS (server list), it sends SVR and then the server will use CNT
+	New server command support, AVS[server id],[server type],[servername],...,[server id],[server type],[servername]  (available servers)
+
+	Kill(erase) monsters not on screen.
+	new MAC, CHC commands, we'll need: [fe]male, head, chest, legs, feet, arms, lefthand, righthand, etc
+		*keep mac/add new support
+
+	*container support (inventory bags, corpses)
+	*able to move the windows anywhere you please (inventory, status, chat, hp bar)
+
+5/13
+I was very tired today after kendo (-.-;)
+1) Added spear bodies.
+2) Reworked some of the graphics file (raw)
+3) Raw file now has information of 10000 potential frames, I will expand this to 20000+ to make it work better (for when there are a lot more graphics).
+3) Added support for new animated heads.
+4) Removed drawing of old weapons, until new ones are added.
+5) Had hell with a bug that was crashing directx.
+
+5/12
+1) Implemented some of the new graphics and walked around in awe.  Females need ears.. (human bodies, bats, rams)\
+2) Changed some formulas to help make vita bars sit over the head.
+
+5/8
+1) Added 'paper doll' which is just eight boxes when you press s.
+2) Added dragging to the paper doll window which sends the server use.
+3) Double clicking 'uses' and item again (unequips).
+Remaining features for the paper doll are serverside.
+
+
+5/7
+1) Text bubbles now size and center.
+2) Optimized loops a bit which more thand doubled FPS/client speed.  95-110fps.
+3) Added a timer which limits FPS to 50/second, while allowing the engine to run smooth.
+
+5/1
+1) Redid spell book.
+2) Spell book interacts with hot button items.
+3) Added character specific hot button saves.
+4) Changed "/SWAPA,B" to "SWAP__,__" in the server.
+5) Keys 0-9 interact with the hot buttons and use/cast whatever is put there.
+6) Completely removed old macro related parts.
+7) Added temp 32x32 spell icons to test things.
+8) Double right clicking no longer uses an item.
+9) Double clicking spell icons bring up spell target/cast.
+10) Improved spell and targeting related code.
+11) Started redoing text bubbles.
+
+4/30
+1) Added 'hot buttons' to top right of screen.
+2) Made a new inventory with 30 slots.
+3) Made it so you can drag and drop inventory items to new slots.
+4) Double clicking uses an inventory item.
+5) Right clicking now drops an inventory item.
+6) Dragging an inventory item out onto the screen drops it below you.
+7) You can drag inventory items to hot buttons.
+8) Right clicking clears a hot button.
+9) Mousing over an item displays its name.
+10) Removed /change command.
+11) Changed server to support the 30 item inventory.
+12) Wrote "change__,__" into server.  __ and __ are numbers.
+13) Item follows mouse when you drag and drop.
+14) Added E to equipped items.
+15) Added number of items.
+
+4/29
+This includes updates before 4/29
+1) An ok box has been added that the server can spawn.
+2) The ok box was expanded to a total of 100 lines and is now scrollable.
+3) Custom font.
+4) Text above player's heads fits right.
+5) Made a real target.
+6) Nontargetable spells cast fast now (found the bug).
+7) Changed the spell list.
+8) Added 'spell icons' to a player's spell list.
+9) Programmed in an I.E. box that will open up to the game forum.
+10) Made buttons on the ok box into real buttons.
+11) Client saves more settings than before.
+12) More things that I forgot.
+
+3/10
+1) Client runs 640x480 -- interface is completely redone.
+2) You can alt tab and the surface isn't lost.
+3) / pulls up the text box with a / in it, however for some reason it is a bit picky and doesn't work 100% how I want it to.
+4) the item/spell/etc windows toggle on and off by pressing their key again.
+5) f3-f5 toggle things.
+6) other little things
+
+2/16
+1) Addition of 'female' heads, however there are no female bodies yet -- I am a horrible artist and I couldn't create something that was acceptable to me.  I hope that for now the heads are good enough.  Sadly this requires a new client -- a new download.
+2) Sound driver switch for people who don't have a sound driver and want to play.
+3) Added ghost caves
+4) Respawn doesn't show old spell graphics.
+5) When a monster is killed it doesn't go away until its spell graphic is finished.
+6) Skull appears over a monster when they are dying from a spell, monsters disappear immediatly when killed by hand.
+7) Added warmth spells for Clerics.
+8) Added self healing spells for Clerics.
+9) Fixed PK for swinging with a sword.
+10) Added new spell graphics.
+11) Gold goes away on map change.
+12) Changed the length text appears over a player's head based on its length.  In general text appears for a much shorter time, I was told it was too long before.
+13) Changed Slam/Bash's name and they also match now in the guild list and spell list.
+14) Took out some code that had no function that could have been slowing down the server a little.
+15) /forget[letter] forgets a spell.
+16) /swap[letter][letter] swaps the spots of a spell in the spell book.
+17) /change[letter][letter] changes the order of inventory items.
+
+2/13
+1) Powerlist fixed 100%.
+2) Warriors strength changed and side/back damage changed.
+3) Change to position of vita bar and text.
+4) Tilda bug fixed.  Tildas are used for the font data at the end of text (i.e. "Wow~255~255~255~0~0~"), so the game now replaces tildas with dashes, sorry.
+5) NPCs cannot walk on exits.
+6) Found miltiple bugs in grouping over two hours and it should work correctly now.
+7) Home key for spell targetting added.
+
+2/12
+1) Added the black skeleton cave and one room of ghosts.
+2) Changed the ranking code to make it updage better.
+3) The ranking code will not rank my (gm) test chars now.
+4) Worked to fix grouping bug with crash-out and log-out.
+
+
+The two below entries I am unsure of the exact date and which release they were in.
+
+1) Redid the macro system to make it more user friendly.
+2) Made windowed an option you can choose on the logon screen.
+3) Fixed NPC AI so they see you on the edge of the screen.
+4) Made the NPCs a *little* smarter.
+5) Made monsters spawn when you aren't on the screen.
+6) NPCs and monsters move better now.
+
+1) The game now runs windowed until I can figure out how to fix 2) The error with alt + tab where I loose the drawing surface.
+3) Added minimize to F1
+4) Added 'refresh' function to F2
+5) I fixed targeting bugs that might not have been noticeable to many players.
+6) I believe I fixed the error in grouping, which was causing problems before.
+7) I fixed the typos in peasant and wizard.
+8) The face npc now sells return scrolls.
+
+
+More development information can be found in my online journal at http://inkey.angelcities.com/ seeing as I tend to rant about my game often.
